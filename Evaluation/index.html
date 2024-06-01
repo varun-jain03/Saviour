@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Evaluation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,600;1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,600;1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,600;1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=ZCOOL+KuaiLe&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,600;1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=ZCOOL+KuaiLe&display=swap');
+
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: #191818;
+        }
+
+        header {
+            width: 1512px;
+            height: 588px;
+            gap: 0px;
+            opacity: 0px;
+            border: 1px solid;
+            background-image: url(/Rectangle\ 18.svg);
+            margin: auto;
+        }
+
+        .top {
+            display: flex;
+        }
+
+        .top>img {
+            width: 106px;
+            height: 117px;
+            gap: 0px;
+            opacity: 0px;
+            margin-top: 27px;
+            margin-left: 88px;
+        }
+
+        .head {
+            width: 122px;
+            height: 32px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 56px;
+            margin-left: 4px;
+        }
+
+        nav {
+            width: 583px;
+            height: 52px;
+            gap: 24px;
+            border-radius: 20px;
+            opacity: 0px;
+            display: flex;
+            background: #191818;
+            justify-content: center;
+            margin-top: 46px;
+            margin-left: 178px;
+        }
+
+        nav>p {
+            gap: 0px;
+            opacity: 0px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 14px;
+        }
+
+        nav>i {
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+
+        .top>div {
+            width: 127px;
+            height: 38px;
+            gap: 6.18px;
+            border-radius: 15.44px;
+            opacity: 0px;
+            background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+            display: flex;
+            justify-content: center;
+            margin-top: 54px;
+            margin-left: 215px;
+        }
+
+        .top>div>p {
+            width: 95px;
+            height: 18px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        header>h1 {
+            width: 1262px;
+            height: 108px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 53.55px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 123px;
+            margin-top: 178px;
+        }
+
+        .introduction {
+            width: 1512px;
+            height: 679pxpx;
+            display: flex;
+            margin: auto;
+        }
+
+        .introduction>img {
+            width: 795px;
+            height: 795px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+
+
+        .container>h2 {
+            width: 389px;
+            height: 52px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            color: #ED0137;
+            margin-top: 89px;
+            margin-left: 163px;
+        }
+
+        .container>p {
+            color: #FFFFFF;
+            margin-left: 163px;
+            margin-top: 24px;
+            width: 587px;
+            height: 207px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.56px;
+            text-align: left;
+        }
+
+        .container>div {
+            margin-left: 163px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.56px;
+            text-align: left;
+        }
+
+        .container>button {
+            margin-left: 163px;
+            text-align: center;
+            width: 178.94px;
+            height: 54.06px;
+            border-radius: 21.92px;
+            opacity: 0px;
+            background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+            color: #FFFFFF;
+            font-family: ZCOOL KuaiLe;
+            font-size: 20.03px;
+            font-weight: 400;
+            line-height: 20.03px;
+            margin-top: 88px;
+        }
+
+        .road-map {
+            background-image: url(/Rectangle\ 21.svg);
+            width: 1512px;
+            height: 716px;
+            gap: 0px;
+            opacity: 0.71px;
+            margin: auto;
+            justify-content: center;
+        }
+
+        .road-map>h1 {
+            width: 282px;
+            height: 52px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            color: #ED0137;
+            margin-top: 24px;
+            margin-left: 613px;
+        }
+
+        .road-map>div {
+            width: 1159.1px;
+            height: 349px;
+            padding: 0px;
+            gap: 0px;
+            opacity: 0px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 112px;
+            margin-left: 161px;
+        }
+
+        .road-map>div>img {
+            width: 237.06px;
+            height: 349px;
+            gap: 0px;
+            border-radius: 13.17px;
+            opacity: 0px;
+        }
+
+        .faq {
+            width: 1512px;
+            height: 889px;
+            margin: auto;
+            display: flex;
+        }
+
+        .faq>img {
+            width: 503px;
+            height: 503px;
+            gap: 0px;
+            opacity: 0px;
+            margin-top: 109px;
+            margin-left: 86px;
+        }
+
+        .faq>div>h1 {
+            width: 119px;
+            height: 52px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            color: #ED0137;
+        }
+
+        .nrml {
+            width: 640px;
+            height: 77px;
+            gap: 0px;
+            border-radius: 20px;
+            opacity: 0px;
+            border: 1px solid #ED0137;
+            background: #0F0F0F;
+            display: flex;
+        }
+
+        .nrml>p {
+            font-family: Shojumaru;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26.48px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        .nrml>p:nth-child(1) {
+            margin-left: 40px;
+        }
+
+        .nrml>p:nth-child(2) {
+            margin-left: 72px;
+        }
+
+        .dif {
+            width: 640px;
+            height: 202px;
+            gap: 0px;
+            border-radius: 20px;
+            border: 1px;
+            opacity: 0px;
+            background: #0F0F0F;
+            border: 1px solid #ED0137;
+        }
+
+        .dif>div:nth-child(1) {
+            display: flex;
+        }
+
+        .dif>div>p {
+            font-family: Shojumaru;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26.48px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        .dif>div>p:nth-child(1) {
+            margin-left: 40px;
+        }
+
+        .dif>div>p:nth-child(2) {
+            margin-left: 72px;
+        }
+
+        .dif>div>p:nth-child(3) {
+            margin-left: 52px;
+        }
+
+        .dif>div:nth-child(2) {
+            width: 568px;
+            height: 83px;
+            gap: 0px;
+            border-radius: 20px;
+            opacity: 0px;
+            background: #EEEEEE0A;
+            margin-left: 37px;
+            margin-bottom: 32px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25.56px;
+            text-align: left;
+            color: #FFFFFF;
+            padding-left: 22px;
+            padding-top: 16px;
+        }
+
+        footer {
+            width: 1512px;
+            height: 428px;
+            top: 2866px;
+            left: -602px;
+            gap: 0px;
+            opacity: 0px;
+            background: linear-gradient(180deg, #030405 0%, #120101 100%);
+            margin: auto;
+        }
+
+        footer>img {
+            margin-top: 64px;
+            margin-left: 658px;
+        }
+
+        footer>h2 {
+            width: 114px;
+            height: 26px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 25.64px;
+            letter-spacing: 1.7090909481048584px;
+            text-align: left;
+            background: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
+            margin-top: 25px;
+            margin-left: 699px;
+        }
+
+        .footer1 {
+            width: 618px;
+            height: 20px;
+            gap: 0px;
+            opacity: 0px;
+            margin-top: 24px;
+            margin-left: 447px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer1>p {
+            font-family: Poppins;
+            font-size: 12.82px;
+            font-weight: 600;
+            line-height: 19.23px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        .footer2 {
+            display: flex;
+            justify-content: space-between;
+            width: 111px;
+            height: 27px;
+            gap: 0px;
+            opacity: 0px;
+            margin-top: 40px;
+            margin-left: 700px;
+        }
+
+        .footer2>i {
+            color: #FF012A;
+            width: 22.89px;
+            height: 18.63px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <img src="/Logo Savior red copy 1.svg" alt="">
+            <p class="head">Saviour</p>
+            <nav>
+                <p>Home</p>
+                <p>IDO</p>
+                <p>Tokenomics</p>
+                <p>Roadmap</p>
+                <p>Coming Soon</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </nav>
+            <div>
+                <p>Connect Wallet</p>
+            </div>
+        </div>
+        <h1>Where Blockchain Heroes Thrive, Rescuing<br>Dreams, Elevating Fortunes.</h1>
+    </header>
+
+    <div class="introduction">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>We've all been in the mud once, and now we've<br>decided to fight it out.<br>
+                Pay tribute to those pioneers of WEB3 and the<br>warriors who dedicated their love to the<br>
+                blockchain. Save the lucky ones alive, join us to<br>save the future!<br>
+                Our mission is to empower everyone to share<br>wealth and succeed.
+            </p>
+            <div>read more...</div>
+            <button>
+                Documents
+
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+        </div>
+        <img src="/Brick_Matrix_Generate_a_logo_concept_that_visually_represents_t_9df3d56e-2aaa-42b8-add9-01ba1b656499 2.svg"
+            alt="">
+    </div>
+
+    <div class="road-map">
+        <h1>Road Map</h1>
+        <div>
+            <img src="/Link (3).svg" alt="">
+            <img src="/Link (4).svg" alt="">
+            <img src="/Link (5).svg" alt="">
+            <img src="/Link (6).svg" alt="">
+        </div>
+    </div>
+
+    <div class="faq">
+        <img src="/image 1.svg" alt="">
+        <div>
+            <h1>faq</h1>
+            <div class="nrml">
+                <p>1</p>
+                <p>Why choose "Savior"?</p>
+                <p style="margin-left: 177px;"><i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+            <div class="nrml">
+                <p>2</p>
+                <p>Why is the IDO duration so long?</p>
+                <p style="margin-left: 26px;"><i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+            <div class="nrml">
+                <p>3</p>
+                <p>When will trading go live?</p>
+                <p style="margin-left: 114px;"><i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+            <div class="dif">
+                <div>
+                    <p>4</p>
+                    <p>When can we claim the tokens?</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    After the IDO concludes, you can claim the tokens on our official<br>website.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="/Frame 1790.svg" alt="">
+        <h2>SITEMAP</h2>
+        <div class="footer1">
+            <p>Home</p>
+            <p>IDO</p>
+            <p>Tokenomics</p>
+            <p>Road Map</p>
+            <p>Whitepaper</p>
+            <p>Pledge</p>
+            <p>NFT</p>
+            <p>Games</p>
+        </div>
+        <div class="footer2">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+        </div>
+
+    </footer>
+</body>
+
+</html>
